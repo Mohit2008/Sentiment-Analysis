@@ -48,6 +48,8 @@ We are then asked to build a model that learns to classify the reviews into one 
 
 ## Results:
 
+Evaluation metric that we used was AUC
+
 * Split1 :0.96375
 
 * Split2 :0.96135
