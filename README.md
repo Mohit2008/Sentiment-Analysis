@@ -48,9 +48,11 @@ We are then asked to build a model that learns to classify the reviews into one 
 
 ## Results:
 
--Split1 :0.96375
--Split2 :0.96135
--Split3 :0.96417
+* Split1 :0.96375
+
+* Split2 :0.96135
+
+* Split3 :0.96417
 
 
 
