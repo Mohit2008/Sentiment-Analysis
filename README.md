@@ -32,6 +32,14 @@ We are then asked to build a model that learns to classify the reviews into one 
 
 •	We filtered out these features into positive terms and negative terms based on the coefficients value and analysed them. It was clearly visible that the negative list had words that were associated with negative sentiment and positive had words that were associated with positive sentiment .
 
+### <center> Negative Terms in our Vocabulary of 2980 items </center>
+
+![](negative.png)
+
+### <center> Positive Terms in our Vocabulary of 2980 items </center>
+
+![](positive.png)
+
 •	The logistic regression used a linear decision boundary to classify the observation into one of the 2 classes. Since we are dealing with Multiple Logistic regression the interpretability of the coefficients could be hard since the variable could be corelated. But still we found that coefficient value was by and large expressive about the way a term was used in a model and as shown above the positive and negative terms really stood out.
 
 •	The tuning parameter in our model was the value of C which is inverse of regularisation strength. Since we had already filtered down our feature set I used LR with ridge regularisation(L2) as L1 would further force some of the features to be zero.
